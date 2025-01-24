@@ -1,0 +1,124 @@
+.corpo__fotos {
+    background-image: linear-gradient(to bottom, blue , lightblue, white);
+}
+
+
+.foto_mailow {
+    height: 150px;
+    width: 100vw;
+}
+
+
+.container__cabecalho-foto{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu__fotos{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu__links-fotos {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.links__fotos {
+    display: inline;
+    width: 70px;
+}
+
+.links__fotos-home {
+    width: 60px;
+}
+
+
+
+.titulo__foto{
+    text-align: center;
+    font-family:"Lexend Giga", serif ;
+    padding: 1rem;
+    margin-right: 2rem;
+    color: black
+}
+
+.paragrafo__foto {
+    text-align: center;
+    width: 90vw;
+    color: black;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.container__fotos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div__foto {
+    width: 100vw;
+    margin-bottom: 1rem;
+}
+.img{
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.descricao__foto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    color: black;
+    margin: 1rem 0;
+}
+
+.fotos__mailow{
+    width: 250px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.paragrafo__rodape-fotos {
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.destaque {
+    position: fixed; /* Faz a imagem ocupar a tela inteira */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Largura de 100% da tela */
+    height: 100vh; /* Altura de 100% da tela */
+    object-fit: cover; /* Garante que a imagem não será distorcida */
+    z-index: 9999; /* Garante que a imagem ficará por cima de outros elementos */
+    cursor: zoom-out; /* Altera o cursor para indicar que a imagem pode ser fechada */
+}
+
+.div__mailow {
+    width: 100vw;
+    margin-top: 1.5rem;
+}
+.exibir__mailow {
+    display: block;
+}
+.foto__mailow {
+    display: none;
+}

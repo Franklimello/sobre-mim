@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    font-family: cursive;
+}
+.div__img-cursos{
+    width: 100vw;
+}
+.img__cursos {
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.menu__cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista__cursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.links__cursos{
+    display: inline;
+    padding: 0.5rem;
+    width: 75px;
+    margin: 1rem 0;
+}
+.titutlo__secundario-cursos {
+    text-align: center;
+}
+
+.paragra__cursos-principal {
+    text-align: center;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+.div__cursos {
+    width: 100vw;
+    margin-bottom: 1rem;
+}
+.paragrafos__cursos {
+    text-align: center;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+.cursos__footer {
+    height: 100px;
+    background-color: green;
+}
+
+.paragrafo__rodape-cursos {
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.destaque {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Garantir que a imagem preencha toda a tela */
+    z-index: 9999;
+    cursor: zoom-out;
+}
