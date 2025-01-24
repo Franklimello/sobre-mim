@@ -69,9 +69,9 @@
     justify-content: center;
 }
 .div__foto {
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto 1rem auto;
-    padding: 0 10vw;
+    padding: 0 5vw;
 }
 .img{
     background-size: cover;
