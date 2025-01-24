@@ -7,7 +7,7 @@
 }
 
 .cabecalho {
-
+    margin-bottom: 2rem;
 }
 .menu{
     margin: auto;
@@ -49,18 +49,17 @@
 }
 
 .paragrafo__sobre-mim {
-    
     text-align: center;
-    margin: 0.8rem 0;
+    margin: 1rem 0 3rem;
+    padding: 1rem 0;
     line-height: 1.5rem;
 }
 .sessao__sobre-mim{
     margin: 0 0.8rem 175px;
 }
 .paragrafo__rodape {
-    
     text-align: center;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 .div__lampada {
     display: flex;
@@ -68,6 +67,7 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    padding-top: 2rem;
 }
 
 .lampada {
@@ -76,6 +76,9 @@
 .noturno {
     font-weight: bold;
     
+}
+.container__footer {
+    background-color: rgba(0, 0, 0, 0.493);
 }
 
 .modo-claro {
