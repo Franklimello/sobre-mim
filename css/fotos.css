@@ -101,6 +101,9 @@
     text-align: center;
     padding: 1rem;
 }
+.rodape__foto {
+    background-color: blue;
+}
 
 .destaque {
     position: fixed; /* Faz a imagem ocupar a tela inteira */
