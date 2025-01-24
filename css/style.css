@@ -1,4 +1,6 @@
-
+body, html {
+   heigth:100vh;
+}
 .pg__principal {
    background-color: rgba(0, 0, 0, 0.623);
     background-size: cover;
