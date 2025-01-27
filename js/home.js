@@ -22,15 +22,15 @@ function claroEscuro() {
 claroEscuro();
 
 
-function mudaCOR(classe, corpo,cor) {
+function mudaCor(classe, corpo,cor) {
     const btn_cor = document.querySelector(classe)
     btn_cor.addEventListener('click', () => {
         const body = document.querySelector(corpo)
         body.className = ''
         body.style.backgroundColor = ''
         body.style.backgroundColor = cor
-        console.log(btn_cor)
+        
     })
 }
 
-mudaCOR('.azul', '.pg__principal', 'blue')
+mudaCor('.azul', '.pg__principal', 'blue')
