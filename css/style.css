@@ -92,6 +92,9 @@ body, html {
     
 }
 .container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.795);
     box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5);
 }
