@@ -103,17 +103,18 @@
 
 
 #exibi__fotos{
-    width: 250px;
+    width: 100%;
     height: 50px;
     font-size: 2rem;
-    background-color: green;
+    background-color: rgb(28, 165, 28);
+    color: white;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 .div__milow {
     width: 90vw;
-    margin: 0 auto 1rem auto;
-    padding: 1rem 5vw;
+    margin: 1rem auto;
+    
 }
 .exibir__mailow {
     width: 90vw;
@@ -158,7 +159,7 @@
         box-sizing: border-box;
     }
     .foto_cabecalho {
-        height: 500px;
+        display: none;
     }
     .menu__links-fotos {
         justify-content: space-evenly;
