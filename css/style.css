@@ -55,9 +55,14 @@ body, html {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 1rem;
     line-height: 1.2rem;
     max-width: 90vw;
+=======
+    margin: 1rem 0.8rem;
+    line-height: 1.5rem;
+>>>>>>> 3686c3832af0160723878f317a7d1ddea996b633
 }
 .sessao__sobre-mim{
     min-width: 100vw;
