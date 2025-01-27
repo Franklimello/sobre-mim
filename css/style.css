@@ -15,18 +15,6 @@ body, html {
     min-height: 100vh;
     
 }
-
-<<<<<<< HEAD
-=======
-.cabecalho {
-    height: 120px;
-    
-}
-.menu{
-    
-}  
->>>>>>> d60169b7cf5f5e566ad5387df5b3489c95c931eb
-
 .menu__links{
     display: flex;
     flex-direction: row;
