@@ -64,14 +64,14 @@ body, html {
 
 .paragrafo__sobre-mim {
     text-align: center;
-    margin: 1rem 0 3rem;
+    margin-top: 1rem;
     line-height: 1.5rem;
 }
 .sessao__sobre-mim{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 2rem 0.8rem 175px;
+    
 }
 .paragrafo__rodape {
     text-align: center;
