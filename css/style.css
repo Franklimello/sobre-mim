@@ -30,6 +30,7 @@ body, html {
 .titulo {
     font-family: "Lexend Giga", serif;
     text-align: center;
+    font-size: 1rem;
     margin-bottom:1rem ;
 }
 
@@ -50,18 +51,26 @@ body, html {
 }
 
 .paragrafo__sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
     margin-top: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
+    max-width: 90vw;
 }
 .sessao__sobre-mim{
+    min-width: 100vw;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     
 }
 .paragrafo__rodape {
     text-align: center;
+    font-size: 0.7rem;
 }
 .div__lampada {
     display: flex;
@@ -72,10 +81,11 @@ body, html {
 }
 
 .lampada {
-    width: 50px;;
+    width: 30px;;
 }
 .noturno {
     font-weight: bold;
+    font-size: 0.8rem;
     
 }
 .container__footer {
