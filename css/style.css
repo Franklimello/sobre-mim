@@ -1,9 +1,15 @@
-
+body, html {
+   heigth:100vh;
+}
 .pg__principal {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.795);
+=======
+   background-color: rgba(0, 0, 0, 0.623);
+>>>>>>> ac91a7126f6192fb1927d94bee83c711146b88ef
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,6 +112,7 @@
     background-position: center;
     color: white;
 }
+<<<<<<< HEAD
 
 
 @media screen and (min-width: 600px){
@@ -191,3 +198,5 @@
 
 }
 
+=======
+>>>>>>> ac91a7126f6192fb1927d94bee83c711146b88ef

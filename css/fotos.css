@@ -75,9 +75,8 @@
 }
 .div__foto {
     width: 90vw;
-    margin: 0 auto;
-    text-align: center;
-    
+    margin: 0 auto 1rem auto;
+    padding: 0 5vw;
 }
 .img{
     background-size: cover;
@@ -97,15 +96,18 @@
     width: 250px;
     height: 50px;
     font-size: 2rem;
-    background-color: white;
+    background-color: green;
     border: 2px solid black;
     border-radius: 10px;
 }
 
 .paragrafo__rodape-fotos {
-    color: black;
+    color: white;
     text-align: center;
     padding: 1rem;
+}
+.rodape__foto {
+    background-color: blue;
 }
 
 .destaque {
