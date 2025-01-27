@@ -51,7 +51,7 @@ body, html {
 
 .paragrafo__sobre-mim {
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 0.8rem;
     line-height: 1.5rem;
 }
 .sessao__sobre-mim{
