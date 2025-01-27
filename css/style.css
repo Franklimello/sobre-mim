@@ -82,15 +82,12 @@ body, html {
     background-color: rgba(0, 0, 0, 0.795);
     box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5);
 }
-.rodape {
-    
-    
-}
 
 .modo-claro {
     background-image: none;
     background-color: white;
-    color: white;
+    color: black;
+
 }
 
 /* Modo escuro */
