@@ -5,7 +5,12 @@
 
 .foto_mailow {
     height: 150px;
-    width: 100vw;
+    
+}
+.div__milow {
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center
 }
 
 
@@ -69,8 +74,10 @@
     justify-content: center;
 }
 .div__foto {
-    width: 100vw;
-    margin-bottom: 1rem;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 .img{
     background-size: cover;
@@ -122,3 +129,5 @@
 .foto__mailow {
     display: none;
 }
+
+
