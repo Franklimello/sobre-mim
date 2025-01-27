@@ -1,15 +1,11 @@
 body, html {
-   heigth:100vh;
+   height:100vh;
 }
 .pg__principal {
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.795);
-=======
-   background-color: rgba(0, 0, 0, 0.623);
->>>>>>> ac91a7126f6192fb1927d94bee83c711146b88ef
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,13 +15,6 @@ body, html {
     
 }
 
-.cabecalho {
-    height: 150px;
-    
-}
-.menu{
-    
-}  
 
 .menu__links{
     display: flex;
@@ -71,7 +60,7 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 2rem 0.8rem 175px;
+    
 }
 .paragrafo__rodape {
     text-align: center;
@@ -102,7 +91,7 @@ body, html {
 .modo-claro {
     background-image: none;
     background-color: white;
-    color: black;
+    color: white;
 }
 
 /* Modo escuro */
@@ -112,7 +101,6 @@ body, html {
     background-position: center;
     color: white;
 }
-<<<<<<< HEAD
 
 
 @media screen and (min-width: 600px){
@@ -198,5 +186,3 @@ body, html {
 
 }
 
-=======
->>>>>>> ac91a7126f6192fb1927d94bee83c711146b88ef
