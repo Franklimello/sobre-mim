@@ -1,18 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.foto_cabecalho {
+    width: 100vw;
+    height: 200px;
+}
+
+
+
 .corpo__fotos {
     background-color: white;
 }
-
-
-.foto_mailow {
-    height: 150px;
-    
-}
-.div__milow {
-    width: 90vw;
-    margin: 0 auto;
-    text-align: center
-}
-
 
 .container__cabecalho-foto{
     width: 100vw;
@@ -75,8 +77,6 @@
 }
 .div__foto {
     width: 90vw;
-    margin: 0 auto 1rem auto;
-    padding: 0 5vw;
 }
 .img{
     background-size: cover;
@@ -92,7 +92,16 @@
     margin: 1rem 0;
 }
 
-.fotos__mailow{
+.container__mailow {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#exibi__fotos{
     width: 250px;
     height: 50px;
     font-size: 2rem;
@@ -100,6 +109,18 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+.div__milow {
+    width: 90vw;
+    margin: 0 auto 1rem auto;
+    padding: 1rem 5vw;
+}
+.exibir__mailow {
+    width: 90vw;
+    margin: 0 auto 1rem auto;
+    padding: 0 5vw;
+}
+
+
 
 .paragrafo__rodape-fotos {
     color: white;
@@ -121,15 +142,54 @@
     cursor: zoom-out; /* Altera o cursor para indicar que a imagem pode ser fechada */
 }
 
-.div__mailow {
-    width: 100vw;
-    margin-top: 1.5rem;
-}
+
 .exibir__mailow {
     display: block;
 }
 .foto__mailow {
     display: none;
+}
+
+@media screen and (min-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .foto_cabecalho {
+        height: 500px;
+    }
+    .menu__links-fotos {
+        justify-content: space-evenly;
+    }
+    .paragrafo__foto{
+        max-width: 600px;
+        text-align: center;
+    }
+    .div__foto {
+        text-align: center;
+        max-width: 600px;
+    }
+    .img {
+        max-width: 600px;
+        text-align: center;
+    }
+    .descricao__foto {
+        min-width: 600px;
+        text-align: center;
+    }
+    .div__milow {
+        margin: 1rem 0;
+        padding: 0;
+        width: 250px;
+    }
+    .exibi__fotos{
+        text-align: center;
+        margin: auto;
+    }
+    .exibir__mailow{
+        width: 800px;
+    }
 }
 
 
