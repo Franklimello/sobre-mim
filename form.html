@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <main>
+        <h1>calcular IMC</h1>
+        <form class="formulario" action="">
+           <div class="dados">
+               <label class="form" for="inome">Nome:</label>
+               <input class="form inp" type="text" id="inome" name="nome" placeholder=" Seu Nome">
+                <br>
+               <label class="form" for="iidade">Idade:</label>
+               <input class="form inp" type="number" name="idade" id="iidade" placeholder="Sua Idade">
+               <br>
+               <label class="form" for="ialtura">Altura:</label>
+               <input class="form inp" type="text" name="altura" id="ialtura" placeholder=" Sua Altura">
+                <br>
+               <label class="form" for="peso">Peso:</label>
+               <input class="form inp" type="number" name="peso" id="ipeso" placeholder=" Seu Peso">
+           </div>
+           <div class="resultado">
+            <label class="res" for="imsg">Resultado</label>
+            <textarea  name="msg" id="imsg" placeholder="resultado IMC" ></textarea>
+           </div>
+           <div>
+            <button class="btn_calc">Calcular</button>
+           </div>
+        </form>
+    </main>
+    <script src="js/form.js"></script>
+</body>
+</html>
