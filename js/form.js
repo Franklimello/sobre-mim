@@ -27,7 +27,7 @@ btn_calc.addEventListener('click', (event) => {
         resultado.value = 'Por favor preencha todos os campos'
     }else {
         let imc = calculaImc(peso,altura);
-        resultado.value.color = 'white'
+        resultado.style.color = 'black'
         resultado.value = exibirResultado(imc, peso, altura,nome);
     }
      
