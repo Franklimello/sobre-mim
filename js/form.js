@@ -80,8 +80,10 @@ function converterDados(altura, peso) {
 
     const pesoConvertido = peso.value.toString().replace(',', '.');
 
+    const pesoFormatado = parseFloat(pesoConvertido).toFixed(1);
+
     return {
         altura: alturaConvertida,
-        peso: pesoConvertido
+        peso: pesoFormatado
     };
 }
