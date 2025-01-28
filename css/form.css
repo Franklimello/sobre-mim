@@ -33,6 +33,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 
 
@@ -67,12 +68,13 @@ main {
     vertical-align: top;
 }
 
-textarea {
-    width: 60vw;
-    height: 250px;
+.resultado {
+    border: 1px solid black;
+    width: 65vw;
+    height: 350px;
     text-align: center;
-    line-height: 2rem;
-    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .btn_calc {
