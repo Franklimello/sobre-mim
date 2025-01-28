@@ -5,6 +5,19 @@ const altura = pegaElemento('#ialtura');
 const resultado = pegaElemento('#imsg');
 const btn_calc = pegaElemento('.btn_calc');
 
+function normalizarValor(elemento) {
+    elemento.addEventListener('input', () => {
+        let valor = elemento.value.replace(',', '.');
+        if (valor.length > 2 && valor.indexOf('.') === -1) {
+            valor = valor.slice(0, -2) + '.' + valor.slice(-2);
+        }
+        elemento.value = valor;
+    });
+}
+
+normalizarValor(peso);
+normalizarValor(altura);
+
 
 btn_calc.addEventListener('click', (event) => {
     event.preventDefault();
