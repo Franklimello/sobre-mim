@@ -5,22 +5,16 @@ const altura = pegaElemento('#ialtura');
 const resultado = pegaElemento('#imsg');
 const btn_calc = pegaElemento('.btn_calc');
 
-function normalizarValor(elemento) {
-    elemento.addEventListener('input', () => {
-        let valor = elemento.value.replace(',', '.');
-        if (valor.length > 2 && valor.indexOf('.') === -1) {
-            valor = valor.slice(0, -2) + '.' + valor.slice(-2);
-        }
-        elemento.value = valor;
-    });
-}
 
-normalizarValor(peso);
-normalizarValor(altura);
 
 
 btn_calc.addEventListener('click', (event) => {
     event.preventDefault();
+    
+    const dadosConvertidos = converterDados(altura, peso);
+    altura.value = dadosConvertidos.altura;
+    peso.value = dadosConvertidos.peso;
+
     let peso_valor = parseFloat(peso.value);
     let altura_valor = parseFloat(altura.value); 
 
@@ -78,4 +72,16 @@ function verificarPreenchimento(nome,idade,peso,altura){
         return false
     }
     return true
+}
+
+function converterDados(altura, peso) {
+   
+    const alturaConvertida = altura.value.toString().replace(',', '.');
+
+    const pesoConvertido = peso.value.toString().replace(',', '.');
+
+    return {
+        altura: alturaConvertida,
+        peso: pesoConvertido
+    };
 }
