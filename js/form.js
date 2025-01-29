@@ -28,8 +28,8 @@ btn_calc.addEventListener('click', (event) => {
         resultado.innerHTML = 'Por favor preencha todos os campos'
     }else {
         let imc = calculaImc(peso,altura);
+        resultado.style.color = 'black'
         if (imc < 18.5){
-            resultado.style.color = 'black'
             resultado.innerHTML = exibirResultado(imc, peso, altura,nome)+exibiMsg(' Voce esta abaixo do peso'); 
         }else if (imc >= 18.5 && imc <= 24.9){
             resultado.innerHTML = exibirResultado(imc, peso, altura,nome)+ 'Seu peso esta normal'
