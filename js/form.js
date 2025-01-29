@@ -22,7 +22,7 @@ btn_calc.addEventListener('click', (event) => {
 
     if (!verificarPreenchimento(nome,idade,peso,altura)){
         resultado.style.color = 'red';
-        resultado.innerHTMLe = 'Por favor preencha todos os campos'
+        resultado.innerHTML = 'Por favor preencha todos os campos'
     }else if(!naoNumero(peso_valor,altura_valor)) {
         resultado.style.color = 'red';
         resultado.innerHTML = 'Por favor preencha todos os campos'
