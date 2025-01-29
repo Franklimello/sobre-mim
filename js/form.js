@@ -22,10 +22,10 @@ btn_calc.addEventListener('click', (event) => {
 
     if (!verificarPreenchimento(nome,idade,peso,altura)){
         resultado.style.color = 'red';
-        resultado.value = 'Por favor preencha todos os campos'
+        resultado.innerHTMLe = 'Por favor preencha todos os campos'
     }else if(!naoNumero(peso_valor,altura_valor)) {
         resultado.style.color = 'red';
-        resultado.value = 'Por favor preencha todos os campos'
+        resultado.innerHTML = 'Por favor preencha todos os campos'
     }else {
         let imc = calculaImc(peso,altura);
         if (imc < 18.5){
