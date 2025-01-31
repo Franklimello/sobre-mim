@@ -24,6 +24,9 @@ body, html {
 .icone{
     width: 40px;
 }
+h1 {
+    margin-top: 0;
+}
 
 
 main {
@@ -43,9 +46,10 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     height: 600px;
-    border: 1px solid #000;
+    border: 3px solid #1e0283;
+    border-radius: 10px;
     padding: 1rem;
 }
 .dados {
@@ -61,6 +65,8 @@ main {
 
 .inp {
     height: 2rem;
+    border: 2px solid #1e0283;
+    border-radius: 10px;
 
 }
 
@@ -69,7 +75,8 @@ main {
 }
 
 .resultado {
-    border: 1px solid black;
+    border: 2px solid green;
+    border-radius: 10px;
     width: 65vw;
     height: 350px;
     text-align: center;
